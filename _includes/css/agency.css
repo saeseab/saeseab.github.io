@@ -660,6 +660,13 @@ section#contact {
     background-repeat: no-repeat;
 }
 
+section#about {
+    background-color: #222;
+    background-image: url('{{ site.baseurl }}/img/map-image2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 section#contact .section-heading {
     color: #fff;
 }
