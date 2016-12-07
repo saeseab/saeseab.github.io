@@ -6,10 +6,7 @@ email: info@saese.se
 description: "SAESE AB is an import and export company providing trade services and consulting services. The key to our success is that we have contacts and information to find a right partner between Sweden and other countries. The operation of the company will be the acquisition of in-demand goods for trading between Sweden, Europe, Middle East and Africa, since we have good communication skills in different languages."
 
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+
 
 # Build settings
 markdown: kramdown

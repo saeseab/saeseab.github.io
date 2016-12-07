@@ -11,9 +11,13 @@ body {
 }
 
 .text-muted {
+  
     #{{ site.data.template.color.muted }};
 }
-
+.text-muted-dark {
+  
+    #{{ site.data.template.color.muted_dark }};
+}
 .text-primary {
     color: #{{ site.data.template.color.primary }};
 }
@@ -25,6 +29,8 @@ p {
 
 p.large {
     font-size: 16px;
+    text-align: left;
+    text-align: justify;
 }
 
 a,
@@ -50,11 +56,16 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
+}
+h5{
+    font-family: {{ site.data.template.font.primary }};
+    color: azure;
+    font-size: 16px;
+   
 }
 
 .img-centered {
@@ -120,6 +131,8 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
+    margin-left: 40px;
+    margin-bottom: 40px;
     border-color: #{{ site.data.template.color.primary }};
     border-radius: 3px;
     text-transform: uppercase;
@@ -178,7 +191,15 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    padding: 0px;
+   
+
 }
+.navbar-brand img{
+    max-height: 50px;
+}
+
+
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -242,6 +263,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
+       
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -266,7 +288,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/img/header-bg_3.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -712,4 +734,20 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+section#services {
+    background-color: #f1f1f1;
+}
+
+ img.about_logo{
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 30px;
+    display: inline-block;
+    max-height: 150px;
+}
+
+.about_content{
+
+    font-weight: bold;
 }
