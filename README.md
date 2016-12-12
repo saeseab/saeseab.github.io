@@ -1,30 +1,11 @@
-Agency Jekyll theme
+SAESE.SE
 ====================
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+SAESE AB Company website [www.saese.se](http://www.saese.se/)
 
-# How to use
+#About SAESE AB
 
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+We are an import and export company in Sweden providing trade and consulting services. The key to our success is that we have contacts and information to find the right partner between Sweden and other countries. The operation of our company is the acquisition of in-demand goods for trading between Sweden, Europe, Middle East and Africa, since we have good communication skills in different languages.
 
 =========
-For more details, read [documentation](http://jekyllrb.com/)
+For more details, visit [our website](http://www.saese.se/)
